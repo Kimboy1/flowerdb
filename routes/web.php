@@ -22,7 +22,7 @@ Route::post('logout', [App\Http\Controllers\Auth\LoginController::class, 'logout
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
 
-Route::get('/dashboard/flower/add' ,[App\Http\Controllers\FLowerController::class, 'add'])->name('flower.add');  
+Route::get('/dashboard/flower/add' ,[App\Http\Controllers\FlowerController::class, 'add'])->name('flower.add');  
 Route::post('/dashboard/flower/add' ,[App\Http\Controllers\FlowerController::class, 'store'])->name('flower.add');   
 
 Route::get('/dashboard/flower/edit' ,[App\Http\Controllers\FlowerController::class, 'edit'])->name('flower.edit');  
