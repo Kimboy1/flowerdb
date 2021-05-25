@@ -24,7 +24,7 @@
           <!-- ./col -->
         <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-success">
+            <div class="small-box bg-info">
                 <div class="inner">
                     <h3>{{ $flowerCount }}</h3>
 
@@ -50,9 +50,9 @@
 
         <div class="col-12">
           <div class="card">
-            <div class="card-header " style="display:flex">
+            <div class="card-header" style="display:flex">
               <h3 class="card-title">Flower Database</h3>
-              <a href="{{ route('flower.add')}}" role="button" class="btn btn-block btn-primary float-right" style="margin-left:20px" >Add Flower</a>
+              <a href="{{ route('flower.add')}}" role="button" class="btn btn-block btn-primary float-right" style="margin-left:20px;width:200px" >Add Flower</a>
             </div>
             <!-- /.card-header -->
             <div class="card-body">
